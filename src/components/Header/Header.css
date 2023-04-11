@@ -1,0 +1,42 @@
+.header {
+    background-color: rgb(246, 233, 246);
+}
+.navbar{
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin: auto;
+}
+
+.title{
+    color: rgb(79, 63, 93);
+}
+.link a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 1.5em;
+    color: rgb(79, 63, 93);
+}
+.link a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(188, 117, 255);
+    color: white;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .link {
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+}
