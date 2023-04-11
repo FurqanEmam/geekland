@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Banner from './components/Banner/Banner';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
     element: <Home></Home>,
     children:[
       {
-        path: '/banner',
-        element: <Banner></Banner>,
+        path: '/statistics',
+        element: <Statistics></Statistics>
       }
     ]
   },

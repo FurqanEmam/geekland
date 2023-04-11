@@ -1,6 +1,35 @@
 .banner{
     background-color: rgb(246, 233, 246);
 }
-.banner-container h1{
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container img{
+    max-width: 550px;
+}
+.banner-container p, h1{
     margin: 0;
+    margin-left: 5px;
+    display: flex;
+}
+.dream-text{
+    font-size: 50px;
+    color: rgb(131, 19, 237);
+}
+.banner-details{
+    color: rgb(117, 105, 130);
+    font: 0.8rem;
+}
+@media only screen and (max-width: 768px) {
+    .banner-container{
+        display: inline-block;
+        text-align: center;
+    }
+    .banner-image img{
+
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }

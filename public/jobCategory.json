@@ -1,0 +1,27 @@
+[
+    {
+        "id": 123,
+        "logoUrl": "https://example.com/logo.png",
+        "jobCategory": "Account & Finance",
+        "jobsAvailable": 200
+    },
+    {
+        "id": 456,
+        "logoUrl": "https://example.com/logo2.png",
+        "jobCategory": "Creative Design",
+        "jobsAvailable": 150
+    },
+    {
+        "id": 789,
+        "logoUrl": "https://example.com/logo3.png",
+        "jobCategory": "Marketing",
+        "jobsAvailable": 260
+    },
+    {
+        "id": 1011,
+        "logoUrl": "https://example.com/logo4.png",
+        "jobCategory": "Engineering Job",
+        "jobsAvailable": 500
+    }
+    
+]
