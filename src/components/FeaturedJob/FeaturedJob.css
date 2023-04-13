@@ -1,0 +1,31 @@
+.featured-main-container {
+    /* background-color: rgb(163, 114, 114); */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.featured-container {
+    background-color: rgb(241, 241, 246);
+    width: 280px;
+    height: 320px;
+    padding: 20px;
+    border: 1px solid rgb(197, 195, 195);
+}
+.see-more-btn{
+    font-weight: 700;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .featured-main-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

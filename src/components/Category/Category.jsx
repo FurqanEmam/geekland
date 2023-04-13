@@ -20,7 +20,7 @@ const Category = () => {
         <div>
             <div>
                 <h3 className='job-list'>Job Category List</h3>
-                <p className='job-text'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <p className='job-text'>To make a great future, explore these jobs and their informations to match your own criteria.</p>
             </div>
             <div className='category-container'>
                 {

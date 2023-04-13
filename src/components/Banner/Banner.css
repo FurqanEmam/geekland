@@ -9,7 +9,7 @@
 .banner-container img{
     max-width: 550px;
 }
-.banner-container p, h1{
+.banner-item{
     margin: 0;
     margin-left: 5px;
     display: flex;
