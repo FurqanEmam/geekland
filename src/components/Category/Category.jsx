@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+// import { useLoaderData } from 'react-router-dom';
 import CategoryPost from '../CategoryPost/CategoryPost';
+import './Category.css'
 
 const Category = () => {
     const [categoryPost, setCategoryPost] = useState([]);
@@ -18,8 +19,8 @@ const Category = () => {
     return (
         <div>
             <div>
-                <h3>Job Category List</h3>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <h3 className='job-list'>Job Category List</h3>
+                <p className='job-text'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <div className='category-container'>
                 {

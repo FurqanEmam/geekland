@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
 import { Outlet } from 'react-router-dom';
 import Category from '../Category/Category';
+import Featured from '../Featured/Featured';
 
 const Home = () => {
     // const [category, setCategory] = useState([]);
@@ -16,7 +17,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Category></Category>
-            <h1>this is the homepage for geekland</h1>
+            <Featured></Featured>
 
             <Outlet></Outlet>
         </div>

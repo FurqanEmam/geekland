@@ -4,15 +4,25 @@
     justify-content: center;
 }
 .post-container{
-    background-color: rgb(202, 202, 248);
+    background-color: rgba(227, 227, 253, 0.924);
     width: 250px;
     height: 150px;
     padding: 25px;
-    font-size: 1.5rem;
-
+    font-size: 1.2rem;
+    border-radius: 10px;
 }
 
 .post-icons{
     max-width: 35px;
     max-height: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .category-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
 }
