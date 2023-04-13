@@ -1,25 +1,25 @@
 [
     {
         "id": 123,
-        "logoUrl": "https://example.com/logo.png",
+        "logoUrl": "https://cdn-icons-png.flaticon.com/512/2780/2780345.png",
         "jobCategory": "Account & Finance",
         "jobsAvailable": 200
     },
     {
         "id": 456,
-        "logoUrl": "https://example.com/logo2.png",
+        "logoUrl": "https://www.shutterstock.com/image-vector/brush-on-computer-icon-vector-260nw-1692671215.jpg",
         "jobCategory": "Creative Design",
         "jobsAvailable": 150
     },
     {
         "id": 789,
-        "logoUrl": "https://example.com/logo3.png",
+        "logoUrl": "https://png.pngtree.com/png-vector/20230218/ourmid/pngtree-viral-marketing-icon-png-image_6607442.png",
         "jobCategory": "Marketing",
         "jobsAvailable": 260
     },
     {
         "id": 1011,
-        "logoUrl": "https://example.com/logo4.png",
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5P0-tV6QGB0BsBK-AfC67PGpumncL61dufz5ru56ujIA7PxB-ohhHSJBXBZogTTL5eKA&usqp=CAU",
         "jobCategory": "Engineering Job",
         "jobsAvailable": 500
     }

@@ -1,6 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import CategoryPost from '../CategoryPost/CategoryPost';
 
 const Category = () => {
+    const [categoryPost, setCategoryPost] = useState([]);
+
+
+    useEffect(() => {
+        fetch('jobCategory.json')
+        .then(res => res.json())
+        .then(data => setCategoryPost(data))
+    }, []);
+
+
+
+
     return (
         <div>
             <div>
@@ -8,11 +22,12 @@ const Category = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <div>
-                <div>
-                    <img src="" alt="icons $" />
-                    <h5>Job title $</h5>
-                    <p>Jobs Availability $</p>
-                </div>
+                {
+                    categoryPost.map(postData => <CategoryPost
+                    key={postData.id}
+                    postData={postData}
+                    ></CategoryPost>)
+                }
             </div>
         </div>
     );

@@ -10,6 +10,7 @@ import {
 import Home from './components/Home/Home';
 import Banner from './components/Banner/Banner';
 import Statistics from './components/Statistics/Statistics';
+import Category from './components/Category/Category';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
       {
         path: '/statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/category',
+        element: <Category></Category>,
+        loader: () => fetch('/jobCategory.json')
       }
     ]
   },
