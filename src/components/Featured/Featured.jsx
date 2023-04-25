@@ -23,7 +23,7 @@ const Featured = () => {
                     ></FeaturedJob>)
                 }
             </div>
-            <div>
+            <div className='see-more-btn-container'>
                 <button className='see-more-btn'>See All Jobs</button>
             </div>
         </div>

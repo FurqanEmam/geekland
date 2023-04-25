@@ -5,3 +5,10 @@
 .featured-text{
     text-align: center;
 }
+
+.see-more-btn-container{
+    text-align: center;
+}
+.see-more-btn{
+    margin-top: 10px;
+}

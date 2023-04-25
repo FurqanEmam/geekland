@@ -14,7 +14,7 @@ const FeaturedJob = ({jobData}) => {
                 <div>
                     <p>{jobData.location}</p>
                     <p>{jobData.salary}</p>
-                </div>
+                </div>  
                 <button className='see-more-btn'>View Details $</button>
             </div>
         </div>
