@@ -9,9 +9,44 @@
     padding: 10px 50px;
     margin: auto;
 }
+.title h1{
+    font-size: xx-large;
+}
+.geeks{
+    color: purple;
+}
+.land{
+    color: rgb(213, 108, 213);
+}
+.icons{
+    height: 30px;
+    width: 30px;
+}
 
 .title{
     color: rgb(79, 63, 93);
+}
+.link{
+    position: absolute;
+}
+.link-open{
+    top: 10px;
+}
+.link-close{
+    top: -200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
 .link a{
     text-decoration: none;
@@ -32,11 +67,39 @@
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .link {
         display: none;
     }
     .btn{
         display: none;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .link-open {
+        top: 30px;
+        background-color: rgb(246, 233, 246)
+    }
+    .link-open ul{
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+        top: 30px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .nav-icon{
+        display: none;
+    }
+    .link{
+        display: flex;
+        position: static;
     }
 }
