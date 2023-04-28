@@ -1,19 +1,19 @@
 import React from 'react';
 import './FeaturedJob.css'
 
-const FeaturedJob = ({jobData}) => {
+const FeaturedJob = ({moreData}) => {
     return (
         <div className='featured-main-container'>
             <div className='featured-container'>
-                <img src={jobData.companyLogo} alt="Logo $" />
-                <h4>{jobData.jobTitle}</h4>
-                <p>{jobData.companyName}</p>
+                <img src={moreData.companyLogo} alt="Logo $" />
+                <h4>{moreData.jobTitle}</h4>
+                <p>{moreData.companyName}</p>
                 <div>
-                    <button>{jobData.remoteOrOnsite}</button><button>Full Time</button>
+                    <button>{moreData.remoteOrOnsite}</button><button>Full Time</button>
                 </div>
                 <div>
-                    <p>{jobData.location}</p>
-                    <p>{jobData.salary}</p>
+                    <p>{moreData.location}</p>
+                    <p>{moreData.salary}</p>
                 </div>  
                 <button className='see-more-btn'>View Details $</button>
             </div>
