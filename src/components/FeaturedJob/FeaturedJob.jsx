@@ -1,6 +1,7 @@
 import React from 'react';
 import './FeaturedJob.css'
 import Details from '../Details/Details';
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({moreData}) => {
     return (
@@ -17,7 +18,7 @@ const FeaturedJob = ({moreData}) => {
                     <p>{moreData.salary}</p>
                 </div>  
             
-                <button className='see-more-btn'>View Details $</button>
+                <button className='see-more-btn'> <Link to={`/details/${moreData.id}`}>View Details $</Link> </button>
             </div>
         </div>
     );

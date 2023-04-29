@@ -12,12 +12,12 @@ import Statistics from './components/Statistics/Statistics';
 import Applied from './components/Applied/Applied';
 import Blog from './components/Blog/Blog';
 import Details from './components/Details/Details';
-import Main from './components/Main/Main';
+import Main from './components/Main/Main'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <Main ></Main>,
     children: [
       {
         path: "/",
@@ -38,10 +38,12 @@ const router = createBrowserRouter([
       {
         path: '/details/:id',
         element: <Details />,
-        loader: async () => {
-          const res = await fetch('/jobdata.json');
+        loader: async ({params}) => {
+          const res = await fetch("/jobData.json");
           const data = await res.json();
-          return data;
+          const jobs = data.find(jobInfo => jobInfo.id == params.id);
+
+          return jobs;
         }
       }
     ]

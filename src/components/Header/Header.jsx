@@ -13,8 +13,8 @@ const Header = () => {
             <div onClick={() => setOpen(!open)} className='nav-icon'>
                 <span>{
                     open === true
-                        ? <XMarkIcon class="icons" />
-                        : <Bars3Icon class="icons" />
+                        ? <XMarkIcon className="icons" />
+                        : <Bars3Icon className="icons" />
                 }
                 </span>
             </div>
