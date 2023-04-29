@@ -1,0 +1,13 @@
+.chart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chart-container h1{
+    color: purple;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+

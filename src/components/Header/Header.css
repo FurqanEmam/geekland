@@ -26,6 +26,9 @@
 .title{
     color: rgb(79, 63, 93);
 }
+.anchor-title{
+    text-decoration: none;
+}
 .link{
     position: absolute;
 }
@@ -40,7 +43,9 @@
     align-items: center;
     gap: 50px;
 }
-
+.active-link{
+    color: blue;
+}
 ul {
     display: flex;
 }

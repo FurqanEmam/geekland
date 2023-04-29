@@ -1,5 +1,6 @@
 import React from 'react';
 import './FeaturedJob.css'
+import Details from '../Details/Details';
 
 const FeaturedJob = ({moreData}) => {
     return (
@@ -15,6 +16,7 @@ const FeaturedJob = ({moreData}) => {
                     <p>{moreData.location}</p>
                     <p>{moreData.salary}</p>
                 </div>  
+            
                 <button className='see-more-btn'>View Details $</button>
             </div>
         </div>

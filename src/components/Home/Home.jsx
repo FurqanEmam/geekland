@@ -14,12 +14,9 @@ const Home = () => {
     // }, [])
     return (
         <div>
-            <Header></Header>
             <Banner></Banner>
             <Category></Category>
             <Featured></Featured>
-
-            <Outlet></Outlet>
         </div>
     );
 };
