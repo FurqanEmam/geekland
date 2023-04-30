@@ -6,25 +6,36 @@
 .details-container{
     display: flex;
 }
+.job-banner{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(246, 233, 246);
+}
+.job-banner h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+}
 
-.job-text{
+.job-text-area{
     max-width: 650px;
-    border: 1px solid black;
+    border: 1px solid rgb(238, 237, 237);
+    padding: 15px;
 }
 
 .bold-text{
     font-weight: 800;
 }
-.job-text p{
+.job-text-area p{
     font-family: 'Times New Roman', Times, serif;
     line-height: 25px;
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
 }
 
 .job-info{
     max-width: 450px;
-    background-color: aquamarine;
+    background-color: rgb(222, 249, 240);
     padding: 20px;
 
 }

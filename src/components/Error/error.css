@@ -1,0 +1,24 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error-img{
+    max-width: 350px;
+}
+.error-message{
+    padding: 15px;
+    font-size: 40px;
+    color: rgb(42, 116, 116);
+}
+.btn-to-home{
+    width: 200px;
+    padding: 15px;
+    margin-top: auto;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(136, 136, 235);
+    color: white;
+    font-size: 20px;
+}
