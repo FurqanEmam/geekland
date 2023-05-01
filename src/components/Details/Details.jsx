@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Details.css'
+import { addToDb } from '../../utils/fakedb';
 
 const Details = () => {
     const detailsData = useLoaderData()
     console.log(detailsData);
+
+
+
+    const jobId = detailsData.id;
+
+    const handleApplyBtn = (jobId) => {
+        console.log(jobId);
+        addToDb(jobId);
+    }
+
+
+
     return (
         <div>
             <div className='job-banner'>
@@ -30,7 +43,7 @@ const Details = () => {
                         <p><span className='bold-text'>Phone: </span>{detailsData.phone}</p>
                         <p><span className='bold-text'>Email: </span>{detailsData.email}</p>
                         <p><span className='bold-text'>Address: </span>{detailsData.location}</p>
-                        <button className='btn-apply-now'>Apply Now</button>
+                        <button onClick={() => handleApplyBtn(detailsData.id)} className='btn-apply-now'>Apply Now</button>
                     </div>
                 </div>
             </div>

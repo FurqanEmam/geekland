@@ -1,0 +1,9 @@
+.main-ques-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    width: 800px;
+
+}
