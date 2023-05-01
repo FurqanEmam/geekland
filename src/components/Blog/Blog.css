@@ -5,5 +5,11 @@
 }
 .question-container{
     width: 800px;
+}
 
+p:first-child{
+    color: rgb(51, 79, 55);
+}
+p:last-child{
+    color: rgb(81, 121, 21);
 }
